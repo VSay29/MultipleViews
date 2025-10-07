@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.multipleviews.ControladorVistaPrincipal">
+   <children>
+      <Button fx:id="btnVista1" layoutX="110.0" layoutY="282.0" mnemonicParsing="false" onAction="#irVista1" prefHeight="25.0" prefWidth="112.0" text="Ir a la vista 1" />
+      <Label fx:id="lblPrincipal" layoutX="136.0" layoutY="145.0" text="Vista Principal">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnVista2" layoutX="293.0" layoutY="282.0" mnemonicParsing="false" onAction="#irVista2" prefHeight="25.0" prefWidth="112.0" text="Ir a la vista 2" />
+   </children>
+</Pane>

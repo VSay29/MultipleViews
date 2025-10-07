@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.multipleviews.ControladorVista2">
+   <children>
+      <Label fx:id="lblVista2" layoutX="207.0" layoutY="138.0" text="Vista 2">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnInicioV2" layoutX="206.0" layoutY="283.0" mnemonicParsing="false" onAction="#irVistaPrincipal" prefHeight="25.0" prefWidth="124.0" text="Volver a Inicio" />
+   </children>
+</AnchorPane>
